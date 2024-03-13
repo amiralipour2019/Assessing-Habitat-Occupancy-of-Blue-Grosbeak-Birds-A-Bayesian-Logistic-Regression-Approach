@@ -26,11 +26,4 @@ We assess the impact of the hyperparameter \(c\) on model outcomes, aiming to id
 ## Conclusion
 The study offers a nuanced understanding of Blue Grosbeak habitat preferences, demonstrating the utility of Bayesian logistic regression in ecological research. Our findings emphasize the significance of field size in determining habitat occupancy, with implications for conservation strategies.
 
-## How to Run
-Instructions on how to execute the analysis scripts, including dependencies, required packages, and execution commands.
 
-## Acknowledgments
-Acknowledgment of any contributions, data sources, or funding support.
-
-## License
-Details on the project's license and usage permissions.
