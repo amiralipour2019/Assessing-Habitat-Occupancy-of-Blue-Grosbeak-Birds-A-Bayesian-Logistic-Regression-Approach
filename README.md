@@ -6,7 +6,7 @@ This study focuses on the Blue Grosbeak birds' habitat occupancy in relation to 
 ## Dataset Description
 The dataset comprises observations of Blue Grosbeak presence across various fields, encapsulated by the following features:
 - **Field ID (s):** Unique identifier for each field location (s=1,2,...,41).
-- **Field Size (X_s):** Numerical value representing the size of each field in the survey.
+- **Field Size ($X_s$):** Numerical value representing the size of each field in the survey.
 - **Occupancy Status (Y_{st}):** Binary indicator of the bird's occupancy status in field `s` during visit `t` (t=1,2,3), where 1 signifies presence and 0 absence.
 
 ## Methodology
