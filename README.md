@@ -7,17 +7,17 @@ This study focuses on the Blue Grosbeak birds' habitat occupancy in relation to 
 The dataset comprises observations of Blue Grosbeak presence across various fields, encapsulated by the following features:
 - **Field ID (s):** Unique identifier for each field location (s=1,2,...,41).
 - **Field Size ($X_s$):** Numerical value representing the size of each field in the survey.
-- **Occupancy Status (Y_{st}):** Binary indicator of the bird's occupancy status in field `s` during visit `t` (t=1,2,3), where 1 signifies presence and 0 absence.
+- **Occupancy Status ($Y_{st}$):** Binary indicator of the bird's occupancy status in field `s` during visit `t` (t=1,2,3), where 1 signifies presence and 0 absence.
 
 ## Methodology
 The study adopts a Bayesian hierarchical model framework, leveraging the following assumptions:
-- Bird occupancy status \(Y_{st}\) follows a Bernoulli distribution, influenced by a latent variable \(Z_s\) representing true occupancy.
-- The probability of occupancy \(Z_s=1\) is modeled as a logistic function of field size, with parameters \(\alpha\) and \(\beta\) assumed to follow normal distributions with hyperparameter \(c\).
+- Bird occupancy status $Y_{st}$ follows a Bernoulli distribution, influenced by a latent variable $Z_s$ representing true occupancy.
+- The probability of occupancy $Z_s=1$ is modeled as a logistic function of field size, with parameters $\alpha$ and $\beta$ assumed to follow normal distributions with hyperparameter \(c\).
 
 ## Results and Analysis
-We present the estimated parameters \(\alpha\), \(\beta\), and \(\theta\), highlighting their implications on habitat occupancy. The analysis includes:
+We present the estimated parameters  $\alpha$ , $\beta$, and $\theta$, highlighting their implications on habitat occupancy. The analysis includes:
 - Interpretation of model parameters and their ecological significance.
-- Evaluation of the model's primary assumptions and the posterior distributions of \(Z_s\) and \(\theta\).
+- Evaluation of the model's primary assumptions and the posterior distributions of $Z_s$ and $\theta$.
 - Implementation and findings from the Metropolis-Hasting algorithm to sample from the posterior distribution.
 
 ## Sensitivity Analysis of Hyperparameter \(c\)
